@@ -25,3 +25,11 @@
 - [未命名类型](ch2/unnamed_type.go)
 
 ## Chapter-3 表达式
+
+- [运算符](ch3/operator.go)
+- [指针](ch3/pointer.go)
+- [初始化](ch3/initialize.go)
+- [流控制 if...else...](ch3/if_else.go)
+- [流控制 switch](ch3/switch.go)
+- [流控制 for](ch3/for.go)
+- [流控制 goto,continue,break](ch3/goto_continue_break.go)

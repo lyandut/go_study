@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// 1. 展开 & 显式类型转换
-	const a = 100            // 无类型声明的产量
+	const a = 100            // 无类型声明的常量
 	const b byte = a         // 直接展开a，相当于 const b byte = 100
 	const aa int = 100       // 显式指定常量类型，编译器会做强类型检查
 	const bb byte = byte(aa) // 显式类型转换
