@@ -36,7 +36,6 @@ func forRange() {
 	for i, s := range data {
 		println(i, s, &i, &s) // 定义的局部变量会重复使用
 	}
-
 }
 
 func forArraySlice() {

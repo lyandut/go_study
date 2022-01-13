@@ -33,3 +33,14 @@
 - [流控制 switch](ch3/switch.go)
 - [流控制 for](ch3/for.go)
 - [流控制 goto,continue,break](ch3/goto_continue_break.go)
+
+## Chapter-4 函数
+
+- [定义](ch4/definition.go)
+- [参数](ch4/parameter.go)
+- [返回值](ch4/return.go)
+- [匿名函数](ch4/anonymous.go)
+- [闭包](ch4/closure.go)
+- [延迟调用](ch4/defer.go)
+- [延迟调用-性能](ch4/defer_test.go)
+- [错误处理](ch4/error_panic_recover.go)

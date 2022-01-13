@@ -1,14 +1,7 @@
 package main
 
 func gotoInit() {
-	//tester := func() {
-	//test:
-	//	println("test")
-	//	println("test exit.")
-	//}
-
 	for i := 0; i <= 3; i++ {
-		//loop:
 		println(i)
 		if i > 1 {
 			goto exit
@@ -16,9 +9,24 @@ func gotoInit() {
 	}
 exit:
 	println("exit.")
-	//goto test // 不能跳转到其他函数
-	//goto loop // 不能跳转到内层代码块内
 }
+
+//func gotoError() {
+//	tester := func() {
+//	test:
+//		println("test")
+//		println("test exit.")
+//	}
+//
+//start: // 错误：未使用的标签
+//	for i := 0; i < 3; i++ {
+//	loop:
+//		println(i)
+//	}
+//
+//	goto test // 不能跳转到其他函数
+//	goto loop // 不能跳转到内层代码块内
+//}
 
 func continueBreak() {
 outer: // 配合标签，continue 和 break 可在多层嵌套中指定目标层级
