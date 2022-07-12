@@ -44,3 +44,9 @@
 - [延迟调用](ch4/defer.go)
 - [延迟调用-性能](ch4/defer_test.go)
 - [错误处理](ch4/error_panic_recover.go)
+
+## 青训营 - Go语言上手-基础语法
+
+- [猜数游戏](examples/guessing_game.go)
+- [命令行词典](examples/simple_dict.go)
+- [socks5代理](examples/socks5_proxy.go)
